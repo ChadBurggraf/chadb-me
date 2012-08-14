@@ -1,0 +1,16 @@
+auto: true
+baseurl: /
+exclude: 
+  - bootstrap
+  - static
+  - .gitignore 
+  - .gitmodules 
+  - chadb-me.sublime-project 
+  - chadb-me.sublime-workspace 
+  - CNAME 
+  - compile-js.py
+  - Makefile
+  - yuicompressor-2.4.7.jar
+pygments: true
+server: true
+version: 1.0
