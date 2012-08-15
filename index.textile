@@ -2,3 +2,91 @@
 title: Chad Burggraf
 layout: default
 ---
+
+<notextile>
+<header class="header">
+	<img src="img/profile.png" width="95" height="95" alt="">
+	<h1>Chad Burggraf</h1>
+	<p>is a person, just like you.</p>
+</header>
+
+<div class="row">
+	<div class="span4 offset2">
+		<p>
+			I am a software developer living in Scottsdale, Arizona. You should 
+			<a href="https://github.com/ChadBurggraf">follow me on GitHub</a>, 
+			download a copy of <a href="ChadBurggraf-Resume-2012.pdf">my resume</a>, 
+			or send me <a href="mailto:chad.burggraf@gmail.com">an email</a>.
+		</p>
+	</div>
+</div>
+</notextile>
+
+<section id="projects" class="projects">
+
+h2. A Selection of Projects
+
+p(project-badge). <img src="img/badge-side-project-open-source.png" width="147" height="16" alt="Side Project - Open Source">
+
+p(project-icon). <img src="img/icon-blue-collar.png" width="48" height="48" alt="">
+
+h3. Blue Collar
+
+p(byline). Background jobs and scheduled work for .NET
+
+Blue Collar is a system for creating, managing, and executing background work in .NET applications. It includes an embedded web-based management interface, is data storage agnostic, can can be installed via NuGet, a standard Windows Installer installation package, or by direct binary download.
+
+"Project website":http://bluecollardotnet.org/
+"Project source code":https://github.com/ChadBurggraf/blue-collar
+
+<hr class="soften">
+
+p(project-badge). <img src="img/badge-side-project-open-source.png" width="147" height="16" alt="Side Project - Open Source">
+
+p(project-icon). <img src="img/icon-zencoder.png" width="48" height="48" alt="">
+
+h3. Zencoder .NET
+
+p(byline). A .NET C# client library for the "zencoder.com":http://zencoder.com/ API
+
+Zencoder.NET is a fully object-oriented implementation of the Zencoder API for .NET. It is compatible with .NET 3.5 and above, has both syncrhonous and asynchronous APIs, and includes support for receiving and parsing HTTP notifications.
+
+"Project source code":https://github.com/ChadBurggraf/zencoder-cs
+
+<hr class="soften">
+
+p(project-badge). <img src="img/badge-side-project-open-source.png" width="147" height="16" alt="Side Project - Open Source">
+
+p(project-icon). <img src="img/icon-plists.png" width="48" height="48" alt="">
+
+h3. Serialization.Plists
+
+p(byline). Binary plist serialization and de-serialization for C# and .NET
+
+Serialization.Plist is a binary plist read/writer implementation for .NET. It supports the complete plist specification that Apple has published, with two caveats:
+
+* Serialization of opaque data or non plist-compatible objects will break plist editing in Property List Editor.
+* Sets are treated as arrays.
+
+"Project source code":https://github.com/ChadBurggraf/plists-cs
+
+<hr class="soften">
+
+p(project-badge). <img src="img/badge-side-project-open-source.png" width="147" height="16" alt="Side Project - Open Source">
+
+p(project-icon). <img src="img/icon-wmd.png" width="48" height="48" alt="">
+
+h3. WMD
+
+p(byline). WYSIWYM (What You See Is What You Mean) Markdown editor
+
+WMD is a fork of StackOverflow's fork of the original WMD developed by John Fraser. The project is a complete re-architecture of StackOverflow's original de-obfuscation in 2008. The goals of the project were:
+
+* Cleaning up the external API to make it easier to understand and interact with
+* Allow for OO-style WMD instance creation, including multiple instances per page
+* Provide a clean mechanism for extending the editor with custom commands
+* Maintain library independence, as StackOverflow claimed to be introducing a jQuery dependency
+
+"Project source code":https://github.com/ChadBurggraf/wmd
+
+</section>
