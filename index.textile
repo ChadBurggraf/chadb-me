@@ -22,13 +22,52 @@ layout: default
 </div>
 </notextile>
 
+<section id="events" class="events">
+
+h2. Events I'm Participating In
+
+h3. Desert Code Camp 2012.1
+
+p(byline). Speaker
+
+<notextile>
+<div class="row">
+	<div class="span3">
+		<strong>When</strong>
+		<p class="date-time">
+			<span class="date">November 17, 2012</span>
+			<span class="time">@ TBD</span>
+		</p>
+
+		<strong>Where</strong>
+		<div class="vcard">
+			<a href="https://www.google.com/maps?q=Chandler-Gilbert+Community+College,+Chandler,+AZ&hl=en&ll=33.296225,-111.794107&spn=0.01225,0.020149&sll=33.292754,-111.796167&sspn=0.01225,0.020149&oq=chand&hq=Chandler-Gilbert+Community+College,+Chandler,+AZ&t=m&z=16&iwloc=A" target="_blank" class="fn n">Chandler-Gilbert Community College</a>
+			<p class="adr">
+				<span class="street-address">2626 E Pecos Road</span>
+				<span class="locality">Chandler</span>,
+				<span class="region">AZ</span>
+				<span class="postal-code">85225</span>
+			</p>
+		</div>
+	</div>
+
+	<div class="span5">
+		<p>
+			I'll be presenting <a href="http://nov2012.desertcodecamp.com/session/484">Building a Client/Server Application with Backbone.js</a> at Desert Code Camp 2012. This will be my first time presenting a session, so by all means stop by and heckle.
+		</p>
+	</div>
+</div>
+</notextile>
+
+</section>
+
 <section id="projects" class="projects">
 
 h2. A Selection of Projects
 
-p(project-badge). <img src="img/badge-side-project-open-source.png" width="147" height="16" alt="Side Project - Open Source">
+p(project-badge). <i class="project-badge-side-project-open-source"></i> <small>2011 - 2012</small>
 
-p(project-icon). <img src="img/icon-blue-collar.png" width="48" height="48" alt="">
+p(project-icon). <i class="project-icon-settings"></i>
 
 h3. Blue Collar
 
@@ -41,23 +80,26 @@ Blue Collar is a system for creating, managing, and executing background work in
 
 <hr class="soften">
 
-p(project-badge). <img src="img/badge-side-project-open-source.png" width="147" height="16" alt="Side Project - Open Source">
+p(project-badge). <i class="project-badge-client-project-private"></i> <small>2011 - 2012</small>
 
-p(project-icon). <img src="img/icon-zencoder.png" width="48" height="48" alt="">
+p(project-icon). <i class="project-icon-iphone"></i>
 
-h3. Zencoder .NET
+h3. i.AM Search
 
-p(byline). A .NET C# client library for the "zencoder.com":http://zencoder.com/ API
+p(byline). Discover the best autism apps for iOS
 
-Zencoder.NET is a fully object-oriented implementation of the Zencoder API for .NET. It is compatible with .NET 3.5 and above, has both syncrhonous and asynchronous APIs, and includes support for receiving and parsing HTTP notifications.
+i.AM Search is an iOS app and server platform built to help those in the autism community discover high quality apps in the iTunes App Store. The iOS app includes the ability to search, save, and share apps discovered using dimensions such as age, grade, independence level, and problem domain (communication, self-awareness, etc.). 
 
-"Project source code":https://github.com/ChadBurggraf/zencoder-cs
+The server platform hosts a JSON API for speaking with the app, as well as management tools for app curation such as automatic scraping from iTunes, a developer dashboard for data intake from app developers, and workflow management to take apps from input through review and publication.
+
+"Project website":http://iamsearch.wynsumarts.com/
+"iOS App page":http://itunes.apple.com/us/app/i.am-search/id459557470?ls=1&mt=8
 
 <hr class="soften">
 
-p(project-badge). <img src="img/badge-side-project-open-source.png" width="147" height="16" alt="Side Project - Open Source">
+p(project-badge). <i class="project-badge-side-project-open-source"></i> <small>2011 - 2012</small>
 
-p(project-icon). <img src="img/icon-plists.png" width="48" height="48" alt="">
+p(project-icon). <i class="project-icon-computer-service"></i>
 
 h3. Serialization.Plists
 
@@ -72,9 +114,23 @@ Serialization.Plist is a binary plist read/writer implementation for .NET. It su
 
 <hr class="soften">
 
-p(project-badge). <img src="img/badge-side-project-open-source.png" width="147" height="16" alt="Side Project - Open Source">
+p(project-badge). <i class="project-badge-side-project-open-source"></i> <small>2010 - 2011</small>
 
-p(project-icon). <img src="img/icon-wmd.png" width="48" height="48" alt="">
+p(project-icon). <i class="project-icon-cloud"></i>
+
+h3. Zencoder .NET
+
+p(byline). A .NET C# client library for the "zencoder.com":http://zencoder.com/ API
+
+Zencoder.NET is a fully object-oriented implementation of the Zencoder API for .NET. It is compatible with .NET 3.5 and above, has both syncrhonous and asynchronous APIs, and includes support for receiving and parsing HTTP notifications.
+
+"Project source code":https://github.com/ChadBurggraf/zencoder-cs
+
+<hr class="soften">
+
+p(project-badge). <i class="project-badge-side-project-open-source"></i> <small>2009 - 2010</small>
+
+p(project-icon). <i class="project-icon-keyboard-wireless"></i>
 
 h3. WMD
 
@@ -82,11 +138,69 @@ p(byline). WYSIWYM (What You See Is What You Mean) Markdown editor
 
 WMD is a fork of StackOverflow's fork of the original WMD developed by John Fraser. The project is a complete re-architecture of StackOverflow's original de-obfuscation in 2008. The goals of the project were:
 
-* Cleaning up the external API to make it easier to understand and interact with
+* Clean up the external API to make it easier to understand and interact with
 * Allow for OO-style WMD instance creation, including multiple instances per page
 * Provide a clean mechanism for extending the editor with custom commands
 * Maintain library independence, as StackOverflow claimed to be introducing a jQuery dependency
 
 "Project source code":https://github.com/ChadBurggraf/wmd
+
+<hr class="soften">
+
+p(project-badge). <i class="project-badge-side-project-open-source"></i> <small>2009</small>
+
+p(project-icon). <i class="project-icon-clipboard"></i>
+
+h3. SWFClipboard
+
+p(byline). JavaScript clipboard interface
+
+SWFClipboard acts as an interface between JavaScript and the system clipboard. The script allows developers to provide copy/paste features on websites via a clean, simple API (with no dependencies):
+
+* Instantiate as many SWFClipboard instances as necessary on a page
+* Dynamically set which element triggers a copy operation, even after the SWFClipboard instance has been created
+* Dynamically set the text to copy, even after the SWFClipboard instance has been created
+
+These features enable easy development of advanced scenarios, such as "ghosting" the mouse with an SWFClipboard instance in order to provide dynamic copy targets.
+
+"Project source code":https://github.com/ChadBurggraf/swfclipboard
+
+<hr class="soften">
+
+p(project-badge). <i class="project-badge-client-project-private"></i> <small>2008 - 2012</small>
+
+p(project-icon). <i class="project-icon-charts"></i>
+
+h3. Survey Engine
+
+p(byline). Enterprise data collection and reporting platform
+
+Survey Engine is a platform for creating, distributing and reporting on large data collection initiatives. Distributed as white-labeled, custom installed software, the system boasts many features geared towards advanced data collection scenarios:
+
+* Drag and drop interface
+* Arbitrarily long forms with many advanced question types
+* Advanced form features such as skip logic, preconditioned questions, custom validation, inter-question validation, conditional pages, versioning, etc.
+* Advanced reporting features such as automatic summation and segregation, predicated time series, automatic dimensional time series, and an extensible plug-in system
+* Integration features such as an Application API for form, respondent, and report integration; and a Respondent API for form submission and data collection
+
+Survey Engine currently powers the Council for Juvenile Justice Administrators' Performance-based Standards data collection, which won the Innovations in American Government award from Harvard University, as well as a number of other data collection initiatives.
+
+"Performance-based Standards project website":http://pbstandards.org/
+
+<hr class="soften">
+
+p(project-badge). <i class="project-badge-side-project-private"></i> <small>2006 - 2012</small>
+
+p(project-icon). <i class="project-icon-lock"></i>
+
+h3. Virtual Keychain
+
+p(byline). Easily manage all of your web sites, logins, and passwords
+
+Virtual Keychain is an online password management database. Implemented as a static HTML page interacting with a JSON API, it allows users to store account credentials securely and anonymously. 
+
+The application has been online and available free of charge since 2006. Although not the most advanced password database available, its stability, ease of use, and anonymity have proved valuable to those that depend on it.
+
+"Project website":https://virtualkeychain.com/
 
 </section>

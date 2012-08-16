@@ -10,6 +10,7 @@ a:visited {
 
 body { 
 	padding: 20px;
+	min-width: 400px;
 }
 
 h1 {
@@ -26,6 +27,22 @@ h2 {
 
 section {
 	margin-top: 60px;
+}
+
+.byline {
+	position: relative;
+	top: -4px;
+	margin-bottom: 22px;
+	font-weight: 200;
+	color: #999;
+}
+
+.date-time {
+	font-weight: 200;
+}
+
+.date-time .time {
+	color: #999;
 }
 
 .header {
@@ -55,14 +72,6 @@ section {
 	margin-right: 170px;
 }
 
-.projects .byline {
-	position: relative;
-	top: -4px;
-	margin-bottom: 22px;
-	font-weight: 200;
-	color: #999;
-}
-
 .projects .project-badge {
 	float: right;
 	margin-top: 5px;
@@ -70,11 +79,76 @@ section {
 	margin-left: 0;
 }
 
+.projects .project-badge i {
+	display: block;
+	width: 147px;
+	height: 16px;
+	background: url(../img/project-badges.png) no-repeat;
+}
+
+i.project-badge-side-project-open-source {
+	background-position: 0 0 !important;
+}
+
+i.project-badge-side-project-private {
+	width: 126px !important;
+	background-position: 0 -16px !important;
+}
+
+i.project-badge-client-project-private {
+	width: 137px !important;
+	background-position: 0 -32px !important;
+}
+
+.projects .project-badge small {
+	display: block;
+	text-align: center
+}
+
 .projects .project-icon {
 	float: left;
 	margin-top: 5px;
 	margin-right: 0;
 	margin-left: 0;
+}
+
+.projects .project-icon i {
+	display: block;
+	width: 48px;
+	height: 48px;
+	background: url(../img/project-icons.png) no-repeat;
+}
+
+i.project-icon-settings {
+	background-position: 0 0 !important;
+}
+
+i.project-icon-computer-service {
+	background-position: 0 -48px !important;
+}
+
+i.project-icon-cloud {
+	background-position: 0 -96px !important;
+}
+
+i.project-icon-keyboard-wireless {
+	background-position: 0 -144px !important;
+}
+
+i.project-icon-iphone {
+	background-position: 0 -192px !important;
+}
+
+i.project-icon-lock {
+	background-position: 0 -240px !important;
+}
+
+i.project-icon-clipboard {
+	background-position: 0 -288px !important;
+}
+
+i.project-icon-charts {
+	background-position: 0 -336px !important;
 }
 
 hr.soften {
@@ -85,4 +159,18 @@ hr.soften {
 	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.2), rgba(0,0,0,0));
 	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.2), rgba(0,0,0,0));
 	border: 0;
+}
+
+.vcard {
+	font-weight: 200;
+	color: #999;
+}
+
+.vcard a,
+.vcard span.street-address {
+	display: block;
+}
+
+.vcard p {
+	margin-bottom: 0;
 }
