@@ -174,3 +174,9 @@ hr.soften {
 .vcard p {
 	margin-bottom: 0;
 }
+
+@media (max-width: 767px) {
+	.vcard p {
+		margin-bottom: 11px;
+	}
+}
