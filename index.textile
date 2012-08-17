@@ -85,7 +85,7 @@ h3. Blue Collar
 
 p(byline). Background jobs and scheduled work for .NET
 
-Blue Collar is a system for creating, managing, and executing background work in .NET applications. It includes an embedded web-based management interface, is data storage agnostic, can can be installed via NuGet, a standard Windows Installer installation package, or by direct binary download.
+Blue Collar is a system for creating, managing, and executing background work in .NET applications. It includes an embedded web-based management interface, is data storage agnostic, can be installed via NuGet, a standard Windows Installer installation package, or by direct binary download.
 
 "Project website":http://bluecollardotnet.org/
 "Project source code":https://github.com/ChadBurggraf/blue-collar
@@ -117,7 +117,7 @@ h3. Serialization.Plists
 
 p(byline). Binary plist serialization and de-serialization for C# and .NET
 
-Serialization.Plist is a binary plist read/writer implementation for .NET. It supports the complete plist specification that Apple has published, with two caveats:
+Serialization.Plists is a binary plist read/writer implementation for .NET. It supports the complete plist specification that Apple has published, with two caveats:
 
 * Serialization of opaque data or non plist-compatible objects will break plist editing in Property List Editor.
 * Sets are treated as arrays.
@@ -134,7 +134,7 @@ h3. Zencoder .NET
 
 p(byline). A .NET C# client library for the "zencoder.com":http://zencoder.com/ API
 
-Zencoder.NET is a fully object-oriented implementation of the Zencoder API for .NET. It is compatible with .NET 3.5 and above, has both syncrhonous and asynchronous APIs, and includes support for receiving and parsing HTTP notifications.
+Zencoder.NET is a fully object-oriented implementation of the Zencoder API for .NET. It is compatible with .NET 3.5 and above, has both synchronous and asynchronous APIs, and includes support for receiving and parsing HTTP notifications.
 
 "Project source code":https://github.com/ChadBurggraf/zencoder-cs
 
