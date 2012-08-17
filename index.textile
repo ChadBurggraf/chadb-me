@@ -12,11 +12,23 @@ layout: default
 
 <div class="row">
 	<div class="span4 offset2">
+		<div class="social clearfix">
+			<a class="social-icon" href="https://github.com/ChadBurggraf">
+				<i class="social-icon-github" title="Follow me on GitHub"></i>
+			</a>
+
+			<a class="social-icon" href="http://www.linkedin.com/pub/chad-burggraf/5/246/b56">
+				<i class="social-icon-linkedin" title="Connect with me on LinkedIn"></i>
+			</a>
+
+			<a class="social-icon" href="mailto:chad.burggraf@gmail.com">
+				<i class="social-icon-email" title="Send me an email"></i>
+			</a>
+		</div>
+
 		<p>
-			I am a software developer living in Scottsdale, Arizona. You should 
-			<a href="https://github.com/ChadBurggraf">follow me on GitHub</a>, 
-			download a copy of <a href="ChadBurggraf-Resume-2012.pdf">my resume</a>, 
-			or send me <a href="mailto:chad.burggraf@gmail.com">an email</a>.
+			I am a software developer living in Scottsdale, Arizona. If you're feeling adventurous,
+			you can download a copy of <a href="ChadBurggraf-Resume-2012.pdf">my resume</a>.
 		</p>
 	</div>
 </div>

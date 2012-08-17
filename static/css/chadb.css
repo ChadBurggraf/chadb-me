@@ -151,6 +151,40 @@ i.project-icon-charts {
 	background-position: 0 -336px !important;
 }
 
+.social {
+	width: 144px;
+	margin: 0 auto 11px;
+}
+
+.social-icon {
+	display: block;
+	float: left;
+	width: 48px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.social-icon i {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-left: 12px;
+	background: url(../img/social.png) no-repeat;
+}
+
+i.social-icon-github {
+	background-position: 0 0 !important;
+}
+
+i.social-icon-linkedin {
+	background-position: 0 -24px !important;
+}
+
+i.social-icon-email {
+	background-position: 0 -48px !important;
+}
+
 hr.soften {
 	height: 1px;
 	margin: 54px 0;
