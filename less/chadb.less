@@ -102,16 +102,70 @@ section {
 		margin-top: 5px;
 		margin-right: 0;
 		margin-left: 0;
+		line-height: 1em;
 
-		i {
-			display: block;
-			width: 147px;
-			height: 16px;
-			background: url(../img/project-badges.png) no-repeat;
+		.badge {
+			padding: 0;
+			font-family: 'Inconsolata', sans-serif;
+			font-size: 9px;
+			font-weight: normal;
+			line-height: 14px;
+			text-transform: uppercase;
+			text-shadow: 0 1px 0 rgba(0,0,0,.35);
+			background-color: transparent;
+			.border-radius(0);
+
+			span {
+				display: block;
+				float: left;
+			}
+
+			.client-project,
+			.open-source,
+			.private,
+			.side-project {
+				padding: 0 5px;
+				border-width: 1px;
+				border-style: solid;
+				.box-shadow(inset 0 0 2px rgba(255,255,255,.75));
+			}
+
+			.client-project,
+			.side-project {
+				.border-top-left-radius(2px);
+				.border-bottom-left-radius(2px);
+			}
+
+			.open-source,
+			.private {
+				.border-top-right-radius(2px);
+				.border-bottom-right-radius(2px);
+			}
+
+			.client-project {
+				border-color: #222;
+				#gradient > .vertical(#555,#222);
+			}
+
+			.open-source {
+				border-color: #459a00;
+				#gradient > .vertical(#5fcc07,#4fa807);
+			}
+
+			.private {
+				border-color: #808080;
+				#gradient > .vertical(#b2b2b2,#666);
+			}
+
+			.side-project {
+				border-color: #127eaf;
+				#gradient > .vertical-three-colors(#25a7e2,#1d93ca,50%,#127eaf);
+			}
 		}
 
 		small {
 			display: block;
+			margin-top: 3px;
 			text-align: center
 		}
 	}
@@ -186,29 +240,16 @@ i.project-icon-charts {
 	display: block;
 	float: left;
 	width: 48px;
-	text-align: center;
-	font-size: 12px;
-	line-height: 16px;
-}
-
-.social-icon i {
-	display: block;
-	width: 24px;
 	height: 24px;
-	margin-left: 12px;
-	background: url(../img/social.png) no-repeat;
+	text-align: center;
+	font-size: 24px;
+	line-height: 24px;
 }
 
-i.social-icon-github {
-	background-position: 0 0 !important;
-}
-
-i.social-icon-linkedin {
-	background-position: 0 -24px !important;
-}
-
-i.social-icon-email {
-	background-position: 0 -48px !important;
+a.social-icon,
+a.social-cion:visited {
+	color: blue;
+	text-decoration: none;
 }
 
 hr.soften {
