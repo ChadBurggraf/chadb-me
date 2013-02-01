@@ -6,6 +6,8 @@ exclude:
   chadb-me.sublime-workspace
   Makefile
   lib
+lsi: false
 pygments: true
+safe: true
 server: true
 version: 1.2
