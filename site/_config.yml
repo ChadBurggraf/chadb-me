@@ -1,6 +1,0 @@
-auto: true
-baseurl: /
-destination: ../_site
-pygments: true
-server: true
-version: 1.2
