@@ -5,7 +5,7 @@ exclude:
   chadb-me.sublime-project
   chadb-me.sublime-workspace
   Makefile
-  lib/
+  lib
 pygments: true
 server: true
 version: 1.2
