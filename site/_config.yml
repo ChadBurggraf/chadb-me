@@ -3,4 +3,4 @@ baseurl: /
 destination: ../_site
 pygments: true
 server: true
-version: 1.1
+version: 1.2

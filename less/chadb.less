@@ -16,13 +16,15 @@ body {
 }
 
 h1 {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	color: #101010;
 }
 
 h2 {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-bottom: 24px;
-	font-weight: 200;
+	font-weight: 300;
 	color: #808080;
 }
 
@@ -105,11 +107,13 @@ section {
 		line-height: 1em;
 
 		.badge {
-			padding: 0;
+			margin: 0 !important;
+			padding: 0 !important;
 			font-family: 'Inconsolata', sans-serif;
 			font-size: 9px;
 			font-weight: normal;
 			line-height: 14px;
+			letter-spacing: .1em;
 			text-transform: uppercase;
 			text-shadow: 0 1px 0 rgba(0,0,0,.35);
 			background-color: transparent;
@@ -172,68 +176,40 @@ section {
 
 	.project-icon {
 		float: left;
+		width: 48px;
+		height: 48px;
 		margin-top: 5px;
 		margin-right: 0;
 		margin-left: 0;
+		background-color: #dedede;
+		text-align: center;
+		.border-radius(24px);
 	
 		i {
-			display: block;
-			width: 48px;
-			height: 48px;
-			background: url(../img/project-icons.png) no-repeat;
+			position: relative;
+			font-size: 24px;
+			line-height: 48px;
+			color: @white;
+		}
+
+		i.icon-tasks {
+			top: 1px;
+		}
+
+		i.icon-mobile-phone {
+			font-size: 32px;
+		}
+
+		i.icon-lock {
+			font-size: 28px;
 		}
 	}
-}
-
-i.project-badge-side-project-open-source {
-	background-position: 0 0 !important;
-}
-
-i.project-badge-side-project-private {
-	width: 126px !important;
-	background-position: 0 -16px !important;
-}
-
-i.project-badge-client-project-private {
-	width: 137px !important;
-	background-position: 0 -32px !important;
-}
-
-i.project-icon-settings {
-	background-position: 0 0 !important;
-}
-
-i.project-icon-computer-service {
-	background-position: 0 -48px !important;
-}
-
-i.project-icon-cloud {
-	background-position: 0 -96px !important;
-}
-
-i.project-icon-keyboard-wireless {
-	background-position: 0 -144px !important;
-}
-
-i.project-icon-iphone {
-	background-position: 0 -192px !important;
-}
-
-i.project-icon-lock {
-	background-position: 0 -240px !important;
-}
-
-i.project-icon-clipboard {
-	background-position: 0 -288px !important;
-}
-
-i.project-icon-charts {
-	background-position: 0 -336px !important;
 }
 
 .social {
 	width: 144px;
 	margin: 0 auto 11px;
+	.clearfix();
 }
 
 .social-icon {
@@ -256,9 +232,9 @@ hr.soften {
 	height: 1px;
 	margin: 54px 0;
 	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.2), rgba(0,0,0,0));
-	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.2), rgba(0,0,0,0));
-	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.2), rgba(0,0,0,0));
-	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.2), rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.2), rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.2), rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.2), rgba(0,0,0,0));
 	border: 0;
 }
 
