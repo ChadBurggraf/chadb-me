@@ -6,7 +6,7 @@ layout: default
 <notextile>
 <header class="header">
 	<div>
-		<img src="http://www.gravatar.com/avatar/aeb98450c2ecffb91d20afc296f70238.png?s=150" width="150" height="150" alt="">
+		<img src="http://www.gravatar.com/avatar/aeb98450c2ecffb91d20afc296f70238.png?s=95" width="95" height="95" alt="">
 	</div>
 	<h1>Chad Burggraf</h1>
 	<p>is a person, just like you.</p>
