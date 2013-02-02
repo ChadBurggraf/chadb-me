@@ -10,4 +10,4 @@ lsi: false
 pygments: true
 safe: true
 server: true
-version: 1.2
+version: 1.3
