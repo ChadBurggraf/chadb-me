@@ -1,13 +1,12 @@
-auto: true
 baseurl: /
 destination: _site
-exclude:
-  chadb-me.sublime-project
-  chadb-me.sublime-workspace
-  Makefile
-  lib
+exclude: [
+  	chadb-me.sublime-project,
+  	chadb-me.sublime-workspace,
+  	Makefile,
+  	lib,
+  ]
 lsi: false
-pygments: true
+highlighter: pygments
 safe: true
-server: true
-version: 1.3
+version: 1.4
